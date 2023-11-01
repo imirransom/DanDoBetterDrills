@@ -56,7 +56,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double add(double baseValue, double difference) {
-        return null;
+        return baseValue+difference;
     }
 
     /**
