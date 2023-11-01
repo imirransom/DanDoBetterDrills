@@ -20,7 +20,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Long add(long baseValue, long difference) {
-        return baseValue+difference;
+        return Long.sum(baseValue, difference);
     }
 
     /**
