@@ -74,7 +74,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Long subtract(long baseValue, long difference) {
-        return null;
+        return Math.subtractExact(baseValue, difference);
     }
 
     /**
