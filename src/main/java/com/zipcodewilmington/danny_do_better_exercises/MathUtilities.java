@@ -201,7 +201,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        return (byte) (multiplicand * multiplier);
     }
 
     /**
