@@ -156,7 +156,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+        return dividend/divisor;
     }
 
     /**
