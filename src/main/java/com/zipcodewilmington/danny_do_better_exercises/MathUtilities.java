@@ -120,7 +120,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        return dividend/divisor;
     }
 
     /**
