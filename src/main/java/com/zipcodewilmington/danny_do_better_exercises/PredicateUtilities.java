@@ -25,7 +25,7 @@ public class PredicateUtilities {
      * @return true if `x` is less than `y`
      */
     public static Boolean isLessThan(int x, int y) {
-        return isGreaterThan(x,y);
+        return isGreaterThan(y, x);
     }
 
     /**
@@ -34,7 +34,13 @@ public class PredicateUtilities {
      * @return true if `x` is greater than or equal to `y`
      */
     public Boolean isGreaterThanOrEqualTo(int x, int y) {
-        return null;
+        boolean answer;
+        if (x>=y) {
+            answer = true;
+        }else {
+            answer = false;
+        }
+        return answer;
     }
 
     /**
