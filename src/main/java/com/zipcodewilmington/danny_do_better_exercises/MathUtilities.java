@@ -184,7 +184,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiply(long multiplicand, long multiplier) {
-        return null;
+        return Math.multiplyExact(multiplicand, multiplier);
     }
 
     /**
@@ -193,7 +193,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+        return (short) (multiplicand*multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
