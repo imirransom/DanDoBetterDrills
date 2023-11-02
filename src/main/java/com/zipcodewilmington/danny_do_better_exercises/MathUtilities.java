@@ -210,7 +210,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Float multiply(float multiplicand, float multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
