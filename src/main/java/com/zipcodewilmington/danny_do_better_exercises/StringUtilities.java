@@ -17,7 +17,7 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+        return firstSegment+secondSegment;
     }
 
     /**
@@ -26,7 +26,7 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+        return String.valueOf(firstSegment) + secondSegment;
     }
 
     /**
@@ -34,7 +34,9 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+
+        String[] str = input.split("");
+        return str[0] + str[1] + str[2];
     }
 
     /**
