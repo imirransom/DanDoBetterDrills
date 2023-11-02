@@ -138,7 +138,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+        return (short) (dividend / divisor);
     }
 
     /**
