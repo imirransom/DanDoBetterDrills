@@ -57,14 +57,14 @@ public class PredicateUtilities {
      * @return true
      */
     public Boolean returnTrue() {
-        return null;
+        return true;
     }
 
     /**
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }
