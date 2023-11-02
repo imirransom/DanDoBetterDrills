@@ -9,7 +9,7 @@ public class PredicateUtilities {
      * @param y
      * @return true if `x` is greater than `y`
      */
-    public Boolean isGreaterThan(int x, int y) {
+    public static Boolean isGreaterThan(int x, int y) {
         boolean answer;
         if (x>y) {
             answer = true;
@@ -24,8 +24,8 @@ public class PredicateUtilities {
      * @param y
      * @return true if `x` is less than `y`
      */
-    public Boolean isLessThan(int x, int y) {
-        return null;
+    public static Boolean isLessThan(int x, int y) {
+        return isGreaterThan(x,y);
     }
 
     /**
