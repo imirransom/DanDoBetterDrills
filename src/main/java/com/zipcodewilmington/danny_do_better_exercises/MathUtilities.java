@@ -175,7 +175,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Integer multiply(int multiplicand, int multiplier) {
-        return null;
+        return multiplicand*multiplier;
     }
 
     /**
